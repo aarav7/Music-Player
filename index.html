@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your One-Stop Music Player</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="logo.png">&nbsp;<span>Spotify</span>
+            </li>
+            <li>
+                Home
+            </li>
+            <li>
+                About
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Best of NCS - No Copyright Sounds!</h1>
+        <div class="songList">
+            <div class="songItem">
+                <img>
+                <span class="songName"></span>
+                <span class="timestamp"><span class="time"></span><i class="fas fa-play-circle playSong"
+                        id="1"></i></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="songName"></span>
+                <span class="timestamp"><span class="time"></span><i class="fas fa-play-circle playSong"
+                        id="2"></i></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="songName"></span>
+                <span class="timestamp"><span class="time"></span><i class="fas fa-play-circle playSong"
+                        id="3"></i></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="songName"></span>
+                <span class="timestamp"><span class="time"></span><i class="fas fa-play-circle playSong"
+                        id="4"></i></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="songName"></span>
+                <span class="timestamp"><span class="time"></span><i class="fas fa-play-circle playSong"
+                        id="5"></i></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="songName"></span>
+                <span class="timestamp"><span class="time"></span><i class="fas fa-play-circle playSong"
+                        id="6"></i></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="songName"></span>
+                <span class="timestamp"><span class="time"></span><i class="fas fa-play-circle playSong"
+                        id="7"></i></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="songName"></span>
+                <span class="timestamp"><span class="time"></span><i class="fas fa-play-circle playSong"
+                        id="8"></i></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="songName"></span>
+                <span class="timestamp"><span class="time"></span><i class="fas fa-play-circle playSong"
+                        id="9"></i></span>
+            </div>
+            <div class="songItem">
+                <img>
+                <span class="songName"></span>
+                <span class="timestamp"><span class="time"></span><i class="fas fa-play-circle playSong"
+                        id="10"></i></span>
+            </div>
+
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <div class="songInfo">
+            <span>00:00</span>
+            <span class="sName"></span>
+            <span>03:45</span>
+        </div>
+        <input type="range" name="range" id="myprogressBar" min="0" max="100" value="0">
+        <!-- <span class="repeat"><i class="material-icons">repeat</i></span> -->
+        <div class="icons">
+            <i class="material-icons repeat" id="loopBtn">repeat</i>
+            <i class="fas fa-step-backward" onclick="prevSong()"></i>
+            <i class="fa-2x fas fa-play-circle" id="playBtn"></i>
+            <i class="fas fa-step-forward" onclick="nextSong()"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d5f8b6c1a9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
